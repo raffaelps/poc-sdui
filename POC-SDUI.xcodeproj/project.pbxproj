@@ -13,6 +13,27 @@
 		4DCABA812623C53500D1B97D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCABA7F2623C53500D1B97D /* Main.storyboard */; };
 		4DCABA832623C53600D1B97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCABA822623C53600D1B97D /* Assets.xcassets */; };
 		4DCABA862623C53600D1B97D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCABA842623C53600D1B97D /* LaunchScreen.storyboard */; };
+		4DCABA8F2623C55800D1B97D /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABA8E2623C55800D1B97D /* Widget.swift */; };
+		4DCABA932623C63200D1B97D /* BannerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABA922623C63200D1B97D /* BannerWidget.swift */; };
+		4DCABA972623C65200D1B97D /* CollectionWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABA962623C65200D1B97D /* CollectionWidget.swift */; };
+		4DCABA9A2623C69300D1B97D /* ListWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABA992623C69300D1B97D /* ListWidget.swift */; };
+		4DCABA9D2623C6F500D1B97D /* AnyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABA9C2623C6F500D1B97D /* AnyWidget.swift */; };
+		4DCABAA12623C84C00D1B97D /* HomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABAA02623C84C00D1B97D /* HomeResponse.swift */; };
+		4DCABAA62623CE4100D1B97D /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DCABAA52623CE4100D1B97D /* data.json */; };
+		4DCABAA92623CEB900D1B97D /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABAA82623CEB900D1B97D /* Bundle.swift */; };
+		4DCABAAD2623D17200D1B97D /* MyPurchasesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABAAC2623D17200D1B97D /* MyPurchasesWidget.swift */; };
+		4DCABAB12623D1A200D1B97D /* LiveWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABAB02623D1A200D1B97D /* LiveWidget.swift */; };
+		4DCABAB82623D21000D1B97D /* WalletWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABAB72623D21000D1B97D /* WalletWidget.swift */; };
+		4DCABABB2623D7C700D1B97D /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABABA2623D7C700D1B97D /* Element.swift */; };
+		4DCABABE2623E81200D1B97D /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DCABABD2623E81200D1B97D /* example.json */; };
+		4DCABAC32627B0BD00D1B97D /* PictureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABAC22627B0BD00D1B97D /* PictureCard.swift */; };
+		4DCABAC72627BF7E00D1B97D /* SwiftUIWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABAC62627BF7E00D1B97D /* SwiftUIWrapper.swift */; };
+		4DCABACB2628BE6800D1B97D /* SparkleButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABACA2628BE6800D1B97D /* SparkleButtonComponent.swift */; };
+		4DCABAD02628BE8900D1B97D /* SparkleButtonEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABACF2628BE8900D1B97D /* SparkleButtonEvent.swift */; };
+		4DCABAD32628BE9B00D1B97D /* SparkleButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABAD22628BE9B00D1B97D /* SparkleButtonModel.swift */; };
+		4DCABAD72628BEEC00D1B97D /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABAD62628BEEC00D1B97D /* Components.swift */; };
+		4DCABADA2628C0C600D1B97D /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABAD92628C0C600D1B97D /* Layout.swift */; };
+		4DCABADE2628C24100D1B97D /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCABADD2628C24100D1B97D /* Views.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +45,27 @@
 		4DCABA822623C53600D1B97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DCABA852623C53600D1B97D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DCABA872623C53600D1B97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DCABA8E2623C55800D1B97D /* Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget.swift; sourceTree = "<group>"; };
+		4DCABA922623C63200D1B97D /* BannerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerWidget.swift; sourceTree = "<group>"; };
+		4DCABA962623C65200D1B97D /* CollectionWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionWidget.swift; sourceTree = "<group>"; };
+		4DCABA992623C69300D1B97D /* ListWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWidget.swift; sourceTree = "<group>"; };
+		4DCABA9C2623C6F500D1B97D /* AnyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyWidget.swift; sourceTree = "<group>"; };
+		4DCABAA02623C84C00D1B97D /* HomeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeResponse.swift; sourceTree = "<group>"; };
+		4DCABAA52623CE4100D1B97D /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		4DCABAA82623CEB900D1B97D /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		4DCABAAC2623D17200D1B97D /* MyPurchasesWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPurchasesWidget.swift; sourceTree = "<group>"; };
+		4DCABAB02623D1A200D1B97D /* LiveWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveWidget.swift; sourceTree = "<group>"; };
+		4DCABAB72623D21000D1B97D /* WalletWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletWidget.swift; sourceTree = "<group>"; };
+		4DCABABA2623D7C700D1B97D /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		4DCABABD2623E81200D1B97D /* example.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = example.json; sourceTree = "<group>"; };
+		4DCABAC22627B0BD00D1B97D /* PictureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCard.swift; sourceTree = "<group>"; };
+		4DCABAC62627BF7E00D1B97D /* SwiftUIWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWrapper.swift; sourceTree = "<group>"; };
+		4DCABACA2628BE6800D1B97D /* SparkleButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkleButtonComponent.swift; sourceTree = "<group>"; };
+		4DCABACF2628BE8900D1B97D /* SparkleButtonEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkleButtonEvent.swift; sourceTree = "<group>"; };
+		4DCABAD22628BE9B00D1B97D /* SparkleButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkleButtonModel.swift; sourceTree = "<group>"; };
+		4DCABAD62628BEEC00D1B97D /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		4DCABAD92628C0C600D1B97D /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		4DCABADD2628C24100D1B97D /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,8 @@
 		4DCABA782623C53500D1B97D /* POC-SDUI */ = {
 			isa = PBXGroup;
 			children = (
+				4DCABAC12627AEDF00D1B97D /* UI */,
+				4DCABAA82623CEB900D1B97D /* Bundle.swift */,
 				4DCABA792623C53500D1B97D /* AppDelegate.swift */,
 				4DCABA7B2623C53500D1B97D /* SceneDelegate.swift */,
 				4DCABA7D2623C53500D1B97D /* ViewController.swift */,
@@ -63,8 +107,83 @@
 				4DCABA822623C53600D1B97D /* Assets.xcassets */,
 				4DCABA842623C53600D1B97D /* LaunchScreen.storyboard */,
 				4DCABA872623C53600D1B97D /* Info.plist */,
+				4DCABAAB2623D13B00D1B97D /* SparkleWidgets */,
+				4DCABAA42623CE2100D1B97D /* JSON */,
+				4DCABA9F2623C84100D1B97D /* Response */,
+				4DCABA912623C62100D1B97D /* Widget */,
 			);
 			path = "POC-SDUI";
+			sourceTree = "<group>";
+		};
+		4DCABA912623C62100D1B97D /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				4DCABA8E2623C55800D1B97D /* Widget.swift */,
+				4DCABA922623C63200D1B97D /* BannerWidget.swift */,
+				4DCABA962623C65200D1B97D /* CollectionWidget.swift */,
+				4DCABA992623C69300D1B97D /* ListWidget.swift */,
+				4DCABA9C2623C6F500D1B97D /* AnyWidget.swift */,
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+		4DCABA9F2623C84100D1B97D /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				4DCABAA02623C84C00D1B97D /* HomeResponse.swift */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
+		4DCABAA42623CE2100D1B97D /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				4DCABAA52623CE4100D1B97D /* data.json */,
+				4DCABABD2623E81200D1B97D /* example.json */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		4DCABAAB2623D13B00D1B97D /* SparkleWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				4DCABAAC2623D17200D1B97D /* MyPurchasesWidget.swift */,
+				4DCABAB02623D1A200D1B97D /* LiveWidget.swift */,
+				4DCABAB72623D21000D1B97D /* WalletWidget.swift */,
+				4DCABABA2623D7C700D1B97D /* Element.swift */,
+			);
+			path = SparkleWidgets;
+			sourceTree = "<group>";
+		};
+		4DCABAC12627AEDF00D1B97D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4DCABAD52628BEC300D1B97D /* Core */,
+				4DCABAC92628BE4800D1B97D /* Button */,
+				4DCABAC22627B0BD00D1B97D /* PictureCard.swift */,
+				4DCABAC62627BF7E00D1B97D /* SwiftUIWrapper.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4DCABAC92628BE4800D1B97D /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				4DCABACA2628BE6800D1B97D /* SparkleButtonComponent.swift */,
+				4DCABACF2628BE8900D1B97D /* SparkleButtonEvent.swift */,
+				4DCABAD22628BE9B00D1B97D /* SparkleButtonModel.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		4DCABAD52628BEC300D1B97D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4DCABAD62628BEEC00D1B97D /* Components.swift */,
+				4DCABAD92628C0C600D1B97D /* Layout.swift */,
+				4DCABADD2628C24100D1B97D /* Views.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +244,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DCABA862623C53600D1B97D /* LaunchScreen.storyboard in Resources */,
+				4DCABABE2623E81200D1B97D /* example.json in Resources */,
 				4DCABA832623C53600D1B97D /* Assets.xcassets in Resources */,
 				4DCABA812623C53500D1B97D /* Main.storyboard in Resources */,
+				4DCABAA62623CE4100D1B97D /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +258,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCABA932623C63200D1B97D /* BannerWidget.swift in Sources */,
+				4DCABAA12623C84C00D1B97D /* HomeResponse.swift in Sources */,
+				4DCABA9A2623C69300D1B97D /* ListWidget.swift in Sources */,
+				4DCABAD02628BE8900D1B97D /* SparkleButtonEvent.swift in Sources */,
+				4DCABAAD2623D17200D1B97D /* MyPurchasesWidget.swift in Sources */,
+				4DCABAA92623CEB900D1B97D /* Bundle.swift in Sources */,
+				4DCABACB2628BE6800D1B97D /* SparkleButtonComponent.swift in Sources */,
 				4DCABA7E2623C53500D1B97D /* ViewController.swift in Sources */,
 				4DCABA7A2623C53500D1B97D /* AppDelegate.swift in Sources */,
+				4DCABAB12623D1A200D1B97D /* LiveWidget.swift in Sources */,
+				4DCABA972623C65200D1B97D /* CollectionWidget.swift in Sources */,
+				4DCABADA2628C0C600D1B97D /* Layout.swift in Sources */,
+				4DCABADE2628C24100D1B97D /* Views.swift in Sources */,
+				4DCABAD32628BE9B00D1B97D /* SparkleButtonModel.swift in Sources */,
 				4DCABA7C2623C53500D1B97D /* SceneDelegate.swift in Sources */,
+				4DCABA9D2623C6F500D1B97D /* AnyWidget.swift in Sources */,
+				4DCABAC72627BF7E00D1B97D /* SwiftUIWrapper.swift in Sources */,
+				4DCABAB82623D21000D1B97D /* WalletWidget.swift in Sources */,
+				4DCABABB2623D7C700D1B97D /* Element.swift in Sources */,
+				4DCABAD72628BEEC00D1B97D /* Components.swift in Sources */,
+				4DCABAC32627B0BD00D1B97D /* PictureCard.swift in Sources */,
+				4DCABA8F2623C55800D1B97D /* Widget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

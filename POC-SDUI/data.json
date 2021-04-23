@@ -1,0 +1,8 @@
+{
+    "widgets": [
+        {
+            "identifier": "MY_PURCHASES",
+            "imageURLString": "url_image_to_be_downloaded"
+        }
+    ]
+}
